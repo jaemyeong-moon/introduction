@@ -23,6 +23,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
 </head>
 
 <body>
@@ -42,13 +44,16 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Jaemyeong Moon" width="80">
+          <img
+            src="https://www.saramin.co.kr/zf_user/persons/picture?idx=6976192|b56d67999ac2294c50104d6fe71d854f0f07344afd5a82c2f00745e6549b6a3d"
+            alt="Jaemyeong Moon" width="80">
         </figure>
 
         <div class="info-content">
           <h1 class="name" title="Jaemyeong Moon">Jaemyeong Moon</h1>
 
-          <p class="title">Backend developer</p> <p class="title">Server Engineer</p>
+          <p class="title">Backend developer</p>
+          <p class="title">Server Engineer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -74,7 +79,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
+              <a href="mailto:answoaud11@naver.com" class="contact-link">answoaud11@naver.com</a>
             </div>
 
           </li>
@@ -88,7 +93,7 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+              <a href="tel:+12133522795" class="contact-link">+82) 010-9890-5314 </a>
             </div>
 
           </li>
@@ -102,7 +107,7 @@
             <div class="contact-info">
               <p class="contact-title">Birthday</p>
 
-              <time datetime="1982-06-23">June 23, 1982</time>
+              <time datetime="1993-12-17">Dec 17, 1993</time>
             </div>
 
           </li>
@@ -124,29 +129,7 @@
         </ul>
 
         <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
+        <p class="contact-title">ref. github</p>
       </div>
 
     </aside>
@@ -181,14 +164,6 @@
             <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
         </ul>
 
       </nav>
@@ -209,20 +184,33 @@
 
         <section class="about-text">
           <p>[카카오 플랫폼 경험]</p>
-            <p>카카오 공동체는 카카오에서 제공하는 인프라를 사용합니다. 소스코드의 형상관리와 서비스 CI/CD 에 대해 갖춰져 있으며, 카카오의 서비스가 아닌 공동체 서비스의 경우, 특성을 고려하여 VM을 별도로 설치하여 서비스를 구축할 수 있습니다.
-              현 회사에 입사하여, T-Fac 서비스에 대해 유지보수하면서, 카카오의 클라우드 서비스를 이용해 버그 및 요구사항 반영과 쿠버네티스 환경에서의 배포가 이루어지는 카카오 플랫폼을 경험하였으며, AWS의 인스턴스와 같은 VM 설치를 하고, 서비스를 배포하면서, 내부 보안망으로 인해 외부인터페이스 연동이 안되는 부분을 분석하며, 내부 협업툴을 통해 보안설정을 진행하여 서비스가 안정적으로 서빙될 수 있게 하였습니다.
-              카카오 공동체인 만큼, 직접적으로 인프라에 대한 지원을 사내에서 지원받을 수 없어, 협업툴을 이용해 주도적으로 요청하고, 확인이 필요했는데, 물어보는 것에 대한 망설임이 없는 성향이 업무를 함에 있어 큰 도움이 되었습니다.</p>
+          <p>카카오 공동체는 카카오에서 제공하는 인프라를 사용합니다. 소스코드의 형상관리와 서비스 CI/CD 에 대해 갖춰져 있으며, 카카오의 서비스가 아닌 공동체 서비스의 경우, 특성을 고려하여 VM을
+            별도로 설치하여 서비스를 구축할 수 있습니다.
+            현 회사에 입사하여, T-Fac 서비스에 대해 유지보수하면서, 카카오의 클라우드 서비스를 이용해 버그 및 요구사항 반영과 쿠버네티스 환경에서의 배포가 이루어지는 카카오 플랫폼을 경험하였으며,
+            AWS의 인스턴스와 같은 VM 설치를 하고, 서비스를 배포하면서, 내부 보안망으로 인해 외부인터페이스 연동이 안되는 부분을 분석하며, 내부 협업툴을 통해 보안설정을 진행하여 서비스가 안정적으로
+            서빙될 수 있게 하였습니다.
+            카카오 공동체인 만큼, 직접적으로 인프라에 대한 지원을 사내에서 지원받을 수 없어, 협업툴을 이용해 주도적으로 요청하고, 확인이 필요했는데, 물어보는 것에 대한 망설임이 없는 성향이 업무를 함에
+            있어 큰 도움이 되었습니다.</p>
 
-            <p>[다양한 운영환경에서 성공적인 운영/유지보수 서비스 제공]</p>
+          <p>[다양한 운영환경에서 성공적인 운영/유지보수 서비스 제공]</p>
 
-            <p> on-promise 로 제공된 카카오톡 챗봇 스킬서버 및 Skillbuilder 서비스를 운영/유지보수하였습니다. 고객사마다 다양한 클라우드 서비스 및 자체 서버를 사용하고 있어, 고객사별 VPN내용과 서버 관련한 정보들을 문서에 작성하였습니다. 또한, 고객사별 요구사항을 위해 직접 커뮤니케이션하여 일정과 업무를 작성하고, 카카오 장애에 대한 대응 시에도 장애 템플릿 문서를 작성하여 배포하였습니다.
-              특히, 장애대응을 위해, 서버구성도를 파악하여, WEB -> WAS로 프록시를 연결하는 구성에서 WEB 서버의 nginx 에 대한 configure 설정을 다루어 이슈를 해결한 경험이 있습니다. 고객의 요구사항을 일목요연하게 정리하여, 회사에서 대응할 수 있는, 또는 대응해야하는 범위인지를 파악하고, 중간에서 조율하면서 고객사에게 만족과 신뢰를 안겨줌으로써 회사의 신뢰도를 높이는데 기여하였습니다.</p>
-            <p>[남다른 스킬셋]</p>
-            <p>C/C++/Java를 바탕으로 임베디드 소프트웨어를 개발을 했고, 백앤드 개발자로 전향하여 업무를 진행하였습니다.
-              임베디드 소프트웨어 개발자로서, 펌웨어 및 임베디드 리눅스가 설치된 작은 모듈에서 작업하면서, 통신의 원리와 네트워크 지식등을 쌓았고, 리눅스 CLI 에 대한 사용을 익혔습니다. 이러한 경험이, 백앤드 개발자로서 업무를 진행하면서, VM에서 인프라를 다룰 때 굉장히 큰도움이 되었으며, 특히, 제한된 리소스를 제공하는 VM에서 서비스의 에러를 파악하고, 보안망에 구축된 인프라들에 대해 네트워크 이슈가 발생했을 때의 원인을 찾는데 도움이 되었습니다.
-              백앤드 개발자로 전향하면서, 스프링부트 3 기반의 REST API 서비스와 Thymeleaf와JQuery를 이용한 웹서비스를 구축하였습니다. 특히, log4j2 에 대한 설정과 스프링 클라우드를 이용한 게이트웨이 설정, 프로필 그룹화 설정, Open Feign, XSS Filter 등의 설정에 대해 문서를 작성하여 공유하여, 서비스 구축에 이바지하였습니다. REST API 서비스를 개발하면서, 서비스에 대한 도메인과 ERD 설계를 비롯하여, 효율적인 개발을 위해 Redis를 사용한 캐싱전략을 사용, 데이터 정합성과 동시성이슈를 해결하기 위해 Lock 전략을 사용하였습니다.
-              또한, 카카오톡 메세징 서비스에 대한 전반적인 내용에 대해 이해하고 있으며, 카카오톡 채널과 챗봇, 레거시 API와 연동을 위한 챗봇 응답 서버 구축에 대한 이해를 갖고, 다양한 고객사의 챗봇 응답 서버를 구축/유지보수 하였습니다.
-              이를 바탕으로, 고객에게 제공되는 서비스의 API 개발을 할 수 있으며, 카카오와의 협업이 있다면, 해당 업무에 대해 주도적으로 이끌어나갈 수 있습니다.</p>
+          <p> on-promise 로 제공된 카카오톡 챗봇 스킬서버 및 Skillbuilder 서비스를 운영/유지보수하였습니다. 고객사마다 다양한 클라우드 서비스 및 자체 서버를 사용하고 있어, 고객사별
+            VPN내용과 서버 관련한 정보들을 문서에 작성하였습니다. 또한, 고객사별 요구사항을 위해 직접 커뮤니케이션하여 일정과 업무를 작성하고, 카카오 장애에 대한 대응 시에도 장애 템플릿 문서를
+            작성하여 배포하였습니다.
+            특히, 장애대응을 위해, 서버구성도를 파악하여, WEB -> WAS로 프록시를 연결하는 구성에서 WEB 서버의 nginx 에 대한 configure 설정을 다루어 이슈를 해결한 경험이 있습니다.
+            고객의 요구사항을 일목요연하게 정리하여, 회사에서 대응할 수 있는, 또는 대응해야하는 범위인지를 파악하고, 중간에서 조율하면서 고객사에게 만족과 신뢰를 안겨줌으로써 회사의 신뢰도를 높이는데
+            기여하였습니다.</p>
+          <p>[남다른 스킬셋]</p>
+          <p>C/C++/Java를 바탕으로 임베디드 소프트웨어를 개발을 했고, 백앤드 개발자로 전향하여 업무를 진행하였습니다.
+            임베디드 소프트웨어 개발자로서, 펌웨어 및 임베디드 리눅스가 설치된 작은 모듈에서 작업하면서, 통신의 원리와 네트워크 지식등을 쌓았고, 리눅스 CLI 에 대한 사용을 익혔습니다. 이러한 경험이,
+            백앤드 개발자로서 업무를 진행하면서, VM에서 인프라를 다룰 때 굉장히 큰도움이 되었으며, 특히, 제한된 리소스를 제공하는 VM에서 서비스의 에러를 파악하고, 보안망에 구축된 인프라들에 대해
+            네트워크 이슈가 발생했을 때의 원인을 찾는데 도움이 되었습니다.
+            백앤드 개발자로 전향하면서, 스프링부트 3 기반의 REST API 서비스와 Thymeleaf와JQuery를 이용한 웹서비스를 구축하였습니다. 특히, log4j2 에 대한 설정과 스프링 클라우드를
+            이용한 게이트웨이 설정, 프로필 그룹화 설정, Open Feign, XSS Filter 등의 설정에 대해 문서를 작성하여 공유하여, 서비스 구축에 이바지하였습니다. REST API 서비스를
+            개발하면서, 서비스에 대한 도메인과 ERD 설계를 비롯하여, 효율적인 개발을 위해 Redis를 사용한 캐싱전략을 사용, 데이터 정합성과 동시성이슈를 해결하기 위해 Lock 전략을 사용하였습니다.
+            또한, 카카오톡 메세징 서비스에 대한 전반적인 내용에 대해 이해하고 있으며, 카카오톡 채널과 챗봇, 레거시 API와 연동을 위한 챗봇 응답 서버 구축에 대한 이해를 갖고, 다양한 고객사의 챗봇
+            응답 서버를 구축/유지보수 하였습니다.
+            이를 바탕으로, 고객에게 제공되는 서비스의 API 개발을 할 수 있으며, 카카오와의 협업이 있다면, 해당 업무에 대해 주도적으로 이끌어나갈 수 있습니다.</p>
         </section>
 
 
@@ -239,7 +227,9 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F2150F44558EBA83C03" alt="design icon" width="40">
+                <img
+                  src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F2150F44558EBA83C03"
+                  alt="design icon" width="40">
               </div>
 
               <div class="service-content-box">
@@ -255,7 +245,8 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/service/453a624d017900001.png" alt="Web development icon" width="40">
+                <img src="https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/service/453a624d017900001.png"
+                  alt="Web development icon" width="40">
               </div>
 
               <div class="service-content-box">
@@ -339,12 +330,12 @@
               <p class="timeline-text">
                 컴퓨터공학부 컴퓨터공학전공
               </p>
-                <p class="timeline-text">
-                    학점: 3.98 / 4.5
-                </p>
-                <p class="timeline-text">
-                  프리미티브(프로그래밍 동아리) 활동 (4년, 동아리장 1년 역임)
-                </p>
+              <p class="timeline-text">
+                학점: 3.98 / 4.5
+              </p>
+              <p class="timeline-text">
+                프리미티브(프로그래밍 동아리)
+              </p>
 
             </li>
 
@@ -378,7 +369,7 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">디케이테크인 (서비스개발팀/봇테크팀)</h4>
+              <h4 class="h4 timeline-item-title">디케이테크인 (서비스개발팀/봇테크팀/AX개발1팀)</h4>
 
               <span>2022.03 — 재직중</span>
 
@@ -390,7 +381,9 @@
                 • 다수 고객사(현대백화점, 한국투자증권, 한국 Amway 등) 챗봇 스킬 서버 구축 및 운영<br>
                 • (내부)RAG 활용 AI서비스 구축 PL (AWS EKS, Helm, CI/CD)<br>
                 • GS건설 레거시 API 연동 챗봇 스킬 개발<br>
+                • 스마트민원행정(양평군) 공공재 서비스 개발<br>
                 • KISA 큐싱 챗봇 개발, 조합원용 예약 시스템 챗봇 개발<br>
+                • NH 농협 조합원용 예약 시스템 챗봇 개발<br>
                 • 레거시 시스템 모듈 공통화 및 개발 CI/CD 환경 구축
               </p>
 
@@ -418,322 +411,39 @@
 
         </section>
 
-        <section class="skill">
+        <section class="skill-set">
 
-          <h3 class="h3 skills-title">My skills</h3
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Java</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Linux</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">C++</h5>
-                <data value="75">75%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">JavaScript</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
+          <h3 class="h3 skills-title">My skills</h3>
+          <div>
+            <div class="skills-container">
+              <div class="skill"><i class="devicon-linux-plain"></i><span>Linux</span></div>
+              <div class="skill"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
+              <div class="skill"><i class="devicon-cplusplus-plain"></i><span>C++</span></div>
+              <div class="skill"><i class="devicon-java-plain"></i><span>Java</span></div>
+              <div class="skill"><i class="devicon-mysql-plain"></i><span>MySQL</span></div>
+              <div class="skill"><i class="devicon-kubernetes-plain"></i><span>Kubernetes</span></div>
+              <div class="skill"><i class="devicon-docker-plain"></i><span>Docker</span></div>
+              <div class="skill"><i class="devicon-docker-plain"></i><span>Docker Compose</span></div>
+              <div class="skill"><i class="devicon-jenkins-plain"></i><span>Jenkins</span></div>
+              <div class="skill"><i class="devicon-argo-plain"></i><span>Argo</span></div>
+              <div class="skill"><i class="devicon-nginx-plain"></i><span>NGINX</span></div>
+              <div class="skill"><i class="devicon-git-plain"></i><span>Git</span></div>
+              <div class="skill"><i class="devicon-rabbitmq-plain"></i><span>RabbitMQ</span></div>
+              <div class="skill"><i class="devicon-apachekafka-plain"></i><span>Apache Kafka</span></div>
+            </div>
           </div>
 
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
         </section>
 
       </article>
-
-
-
-
-
       <!--
         - #BLOG
       -->
 
-      <article class="blog" data-page="blog">
+      <article class="blog" data-page="portfolio">
 
         <header>
-          <h2 class="h2 article-title">Blog</h2>
+          <h2 class="h2 article-title">Portfolio</h2>
         </header>
 
         <section class="blog-posts">
@@ -744,24 +454,26 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                  <img src="https://www.sisaon.co.kr/news/photo/202204/138157_157461_09.jpg"
+                    alt="DL이앤씨, 현장 관리자-노동자 소통 플랫폼 ‘어깨동무M’" loading="lazy"
+                    onclick="redirect(`https://www.sisaon.co.kr/news/articleView.html?idxno=138157`)">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">디케이테크인</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time datetime="2022-02-23">2022. 04</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
+                  <h3 class="h3 blog-item-title">DL이앤씨, '어깨동무M'</h3>
                   <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                    DL E&C 어깨동무 M 프로젝트 챗봇 발송 비즈니스 로직 및 API 게이트웨이 개발
                   </p>
+                  <p class="blog-skill">Springboot(Java), k8s(w. Kakao Cloud Platform)</p>
 
                 </div>
 
@@ -772,25 +484,52 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                  <img src="https://www.digitalmarket.kr/upload/digitalService/specification/2023/4/19/a91496cb-b245-42de-a7a2-f34e7f001ccc.jpg" loading="lazy" onclick="redirect(`https://www.digitalmarket.kr/web/service/detail.do?s=CNV-3-01-10832&keywordSearch=%EC%8A%A4%EB%A7%88%ED%8A%B8%EB%AF%BC%EC%9B%90%ED%96%89%EC%A0%95%EC%8B%9C%EC%8A%A4%ED%85%9C`)">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">디케이테크인</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time datetime="2022-02-23">2023. 04</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
+                  <h3 class="h3 blog-item-title">스마트민원행정</h3>
                   <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                    IoT 데이터 수집 서버 및 청소행정 개발
                   </p>
+                  <p class="blog-skill">Springboot(Java), Thymeleaf, Javascript</p>
 
+                </div>
+
+              </a>
+            </li>
+            
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="https://k.kakaocdn.net/dn/lRmsm/btqNJDEksBM/MmQwA50AptqJuHOoYnLiXK/img_xl.jpg" loading="lazy" onclick="redirect(`https://pf.kakao.com/_gUwyxl`)">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">디케이테크인</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">2023. 08</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">암웨이 카카오톡 챗봇</h3>
+                  <p class="blog-text">
+                    레거시 유지보수 및 운영 업무
+                  </p>
+                  <p class="blog-skill">Springboot(Java), Linux</p>
                 </div>
 
               </a>
@@ -800,25 +539,24 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                  <img src="https://img.etnews.com/photonews/2301/1616688_20230129131120_610_0001.jpg" loading="lazy" onclick="redirect(`https://www.etnews.com/20230129000019`)">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">디케이테크인</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time datetime="2022-02-23">2023. 08</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
+                  <h3 class="h3 blog-item-title">현대백화점, 젤뽀</h3>
                   <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                     레거시 유지보수 및 운영 업무
                   </p>
-
+                  <p class="blog-skill">Java, SkillBuilder(API 빌더), Linux, Docker, Nginx</p>
                 </div>
 
               </a>
@@ -828,25 +566,24 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                  <img src="https://k.kakaocdn.net/dn/vlfDb/btsijf6Nufj/WgtKPQbnP6rI4jQ6IT5pZ1/img.png" loading="lazy" onclick="redirect(`https://pf.kakao.com/_YCAes`)">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">디케이테크인</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time datetime="2022-02-23">2023. 08</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
+                  <h3 class="h3 blog-item-title">한국투자증권 챗봇</h3>
                   <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                    레거시 유지보수 및 운영 업무, 고객지원
                   </p>
-
+                  <p class="blog-skill">Java, SkillBuilder(API 빌더), Linux</p>
                 </div>
 
               </a>
@@ -856,60 +593,56 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                  <img src="https://pimg.mk.co.kr/meet/neds/2021/08/image_readtop_2021_745618_16278726834737339.jpg" loading="lazy" onclick="redirect(`https://www.mk.co.kr/news/realestate/9973594`)">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">디케이테크인</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time datetime="2022-02-23">2024. 08</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
+                  <h3 class="h3 blog-item-title">GS건설, '자이챗봇'</h3>
                   <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    레거시 카카오톡 챗봇 스킬서버 재구축
                   </p>
-
+                  <p class="blog-skill">Java, SkillBuilder(API 빌더), Linux</p>
                 </div>
 
               </a>
             </li>
-
             <li class="blog-post-item">
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                  <img src="https://we-gov.org/wp-content/uploads/2019/11/KISA_logo-resized-02.png" loading="lazy" onclick="redirect(`https://www.kisa.or.kr/1020601`)">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">디케이테크인</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time datetime="2022-02-23">2025. 01</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
+                  <h3 class="h3 blog-item-title">한국인터넷진흥원 챗봇</h3>
                   <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                    카카오톡 챗봇, QR 코드 스캔 및 구글 클라우드 연동 스미싱 연동 기능 개발
                   </p>
-
+                  <p class="blog-skill">Java, SkillBuilder(API 빌더), Linux, Docker, Nginx</p>
                 </div>
 
               </a>
             </li>
 
           </ul>
-
         </section>
 
       </article>
@@ -917,49 +650,6 @@
 
 
 
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
 
     </div>
 

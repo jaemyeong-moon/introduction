@@ -1116,6 +1116,18 @@ main {
   line-height: 1.6;
 }
 
+.blog-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+.blog-skill {
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.2;
+}
 
 
 
@@ -1756,5 +1768,39 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .blog-banner-box { height: 230px; }
 
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 14px;
+      max-width: 900px;
+      padding: 20px;
+    }
+
+    .skill {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: #f8f9fa;
+      border-radius: 30px;
+      padding: 6px 14px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      transition: all 0.2s ease;
+    }
+
+    .skill:hover {
+      background: #e9ecef;
+      transform: translateY(-2px);
+    }
+
+    .skill i {
+      font-size: 22px;
+    }
+
+    .skill span {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+
 }
-q
