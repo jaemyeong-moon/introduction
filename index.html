@@ -153,7 +153,7 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link  active" data-nav-link>Portfolio</button>
           </li>
 
           <li class="navbar-item">
@@ -161,7 +161,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>On-news</button>
           </li>
 
         </ul>
@@ -176,41 +176,96 @@
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+      <article class="about  active" data-page="portfolio">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">Portfolio</h2>
         </header>
 
         <section class="about-text">
-          <p>[카카오 플랫폼 경험]</p>
-          <p>카카오 공동체는 카카오에서 제공하는 인프라를 사용합니다. 소스코드의 형상관리와 서비스 CI/CD 에 대해 갖춰져 있으며, 카카오의 서비스가 아닌 공동체 서비스의 경우, 특성을 고려하여 VM을
-            별도로 설치하여 서비스를 구축할 수 있습니다.
-            현 회사에 입사하여, T-Fac 서비스에 대해 유지보수하면서, 카카오의 클라우드 서비스를 이용해 버그 및 요구사항 반영과 쿠버네티스 환경에서의 배포가 이루어지는 카카오 플랫폼을 경험하였으며,
-            AWS의 인스턴스와 같은 VM 설치를 하고, 서비스를 배포하면서, 내부 보안망으로 인해 외부인터페이스 연동이 안되는 부분을 분석하며, 내부 협업툴을 통해 보안설정을 진행하여 서비스가 안정적으로
-            서빙될 수 있게 하였습니다.
-            카카오 공동체인 만큼, 직접적으로 인프라에 대한 지원을 사내에서 지원받을 수 없어, 협업툴을 이용해 주도적으로 요청하고, 확인이 필요했는데, 물어보는 것에 대한 망설임이 없는 성향이 업무를 함에
-            있어 큰 도움이 되었습니다.</p>
+          <div style="margin-bottom: 20px;">
+            <h3 style="color: #ffdb70; margin-bottom: 10px;">DL E&C 어깨동무 M 프로젝트</h3>
+            <p style="color: #9e9e9e; margin-bottom: 5px;"><strong>2022.03 ~ 2022.06</strong> | 고객사: DL E&C | 규모: FE 2, BE 2</p>
+            <p>카카오톡 챗봇 발송 관련 비즈니스 로직 설계 및 구현, API 게이트웨이 설계 및 백엔드 연동, 고객사 인터페이스 커뮤니케이션 담당</p>
+            <p style="color: #7c7c7c; font-size: 0.9em;">기술스택: Springboot 2.6.x, JDK 11, k8s, docker</p>
+          </div>
 
-          <p>[다양한 운영환경에서 성공적인 운영/유지보수 서비스 제공]</p>
+          <div style="margin-bottom: 20px;">
+            <h3 style="color: #ffdb70; margin-bottom: 10px;">스마트민원행정시스템 차량관제</h3>
+            <p style="color: #9e9e9e; margin-bottom: 5px;"><strong>2022.07 ~ 2023.04</strong> | 고객사: 양평군 | 규모: BE 2</p>
+            <p>백엔드 API 및 DB 설계 구현, IoT 디바이스 연동 API 개발, 프론트엔드 지도 연동 UI 개발, 시스템 통합 테스트 및 배포</p>
+            <p style="color: #7c7c7c; font-size: 0.9em;">기술스택: Springboot 2.6.x, JDK 11, rabbitmq, JQuery, k8s, docker</p>
+          </div>
 
-          <p> on-promise 로 제공된 카카오톡 챗봇 스킬서버 및 Skillbuilder 서비스를 운영/유지보수하였습니다. 고객사마다 다양한 클라우드 서비스 및 자체 서버를 사용하고 있어, 고객사별
-            VPN내용과 서버 관련한 정보들을 문서에 작성하였습니다. 또한, 고객사별 요구사항을 위해 직접 커뮤니케이션하여 일정과 업무를 작성하고, 카카오 장애에 대한 대응 시에도 장애 템플릿 문서를
-            작성하여 배포하였습니다.
-            특히, 장애대응을 위해, 서버구성도를 파악하여, WEB -> WAS로 프록시를 연결하는 구성에서 WEB 서버의 nginx 에 대한 configure 설정을 다루어 이슈를 해결한 경험이 있습니다.
-            고객의 요구사항을 일목요연하게 정리하여, 회사에서 대응할 수 있는, 또는 대응해야하는 범위인지를 파악하고, 중간에서 조율하면서 고객사에게 만족과 신뢰를 안겨줌으로써 회사의 신뢰도를 높이는데
-            기여하였습니다.</p>
-          <p>[남다른 스킬셋]</p>
-          <p>C/C++/Java를 바탕으로 임베디드 소프트웨어를 개발을 했고, 백앤드 개발자로 전향하여 업무를 진행하였습니다.
-            임베디드 소프트웨어 개발자로서, 펌웨어 및 임베디드 리눅스가 설치된 작은 모듈에서 작업하면서, 통신의 원리와 네트워크 지식등을 쌓았고, 리눅스 CLI 에 대한 사용을 익혔습니다. 이러한 경험이,
-            백앤드 개발자로서 업무를 진행하면서, VM에서 인프라를 다룰 때 굉장히 큰도움이 되었으며, 특히, 제한된 리소스를 제공하는 VM에서 서비스의 에러를 파악하고, 보안망에 구축된 인프라들에 대해
-            네트워크 이슈가 발생했을 때의 원인을 찾는데 도움이 되었습니다.
-            백앤드 개발자로 전향하면서, 스프링부트 3 기반의 REST API 서비스와 Thymeleaf와JQuery를 이용한 웹서비스를 구축하였습니다. 특히, log4j2 에 대한 설정과 스프링 클라우드를
-            이용한 게이트웨이 설정, 프로필 그룹화 설정, Open Feign, XSS Filter 등의 설정에 대해 문서를 작성하여 공유하여, 서비스 구축에 이바지하였습니다. REST API 서비스를
-            개발하면서, 서비스에 대한 도메인과 ERD 설계를 비롯하여, 효율적인 개발을 위해 Redis를 사용한 캐싱전략을 사용, 데이터 정합성과 동시성이슈를 해결하기 위해 Lock 전략을 사용하였습니다.
-            또한, 카카오톡 메세징 서비스에 대한 전반적인 내용에 대해 이해하고 있으며, 카카오톡 채널과 챗봇, 레거시 API와 연동을 위한 챗봇 응답 서버 구축에 대한 이해를 갖고, 다양한 고객사의 챗봇
-            응답 서버를 구축/유지보수 하였습니다.
-            이를 바탕으로, 고객에게 제공되는 서비스의 API 개발을 할 수 있으며, 카카오와의 협업이 있다면, 해당 업무에 대해 주도적으로 이끌어나갈 수 있습니다.</p>
+          <div style="margin-bottom: 20px;">
+            <h3 style="color: #ffdb70; margin-bottom: 10px;">스마트마을방송 시스템</h3>
+            <p style="color: #9e9e9e; margin-bottom: 5px;"><strong>2023.05 ~ 2023.07</strong> | 고객사: 양평군 | 규모: BE 3</p>
+            <p>KT MCS (음성메세지 전화 에이전트) 도커라이징, 메세지 전송/이력/통계 관련 API 개발</p>
+            <p style="color: #7c7c7c; font-size: 0.9em;">기술스택: Springboot 2.6.x, JDK 11, rabbitmq, docker, k8s</p>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <h3 style="color: #ffdb70; margin-bottom: 10px;">카카오 I 커넥트 사업 운영 및 유지보수</h3>
+            <p style="color: #9e9e9e; margin-bottom: 5px;"><strong>2023.08 ~ 2024.05</strong> | 고객사: 현대백화점, 더한섬, Amway, 한국투자증권, 가천대학교, 제주시청, 필립모리스 등 | 규모: BE 5</p>
+            <p>카카오 I 커넥트 사업 인수인계 (25개 고객사 운영/하자 유지보수), 챗봇 유지보수 및 API 서버 모니터링, 신규 스킬 API 개발 대응, 온프레미스 서버 유지보수, 웹챗봇 Configuration API 서버 개발</p>
+            <p style="color: #7c7c7c; font-size: 0.9em;">기술스택: Springboot 2.6.x, JDK 11, JavaScript, docker-compose, docker</p>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <h3 style="color: #ffdb70; margin-bottom: 10px;">RAG 활용 AI서비스 구축 (PL)</h3>
+            <p style="color: #9e9e9e; margin-bottom: 5px;"><strong>2024.04 ~ 2024.07</strong> | 내부 프로젝트 | 규모: FE 1, BE 3, 기획 1</p>
+            <p>프로젝트 PL(팀 리딩), 기획 기술 검토 및 방향성 제안, 개발 업무 배분 및 WBS 관리, AWS EKS 기반 클라우드 인프라 구축 (Route 53, NLB), Helm 차트 기반 CI/CD 파이프라인 구성</p>
+            <p style="color: #7c7c7c; font-size: 0.9em;">기술스택: Springboot 3.0.x, JDK 17, k8s, docker, nginx, argocd, gitlab</p>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <h3 style="color: #ffdb70; margin-bottom: 10px;">GS건설 레거시 API 연동 챗봇 스킬 개발</h3>
+            <p style="color: #9e9e9e; margin-bottom: 5px;"><strong>2024.08 ~ 2024.09</strong> | 고객사: GS건설 | 규모: BE 3</p>
+            <p>레거시 API 분석 및 연동, 구버전 빌더 서비스 업데이트, 챗봇 스킬 개발 및 테스트</p>
+            <p style="color: #7c7c7c; font-size: 0.9em;">기술스택: Springboot 2.6.x, JDK 11</p>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <h3 style="color: #ffdb70; margin-bottom: 10px;">공공재 서비스 개발</h3>
+            <p style="color: #9e9e9e; margin-bottom: 5px;"><strong>2024.10 ~ 2025.01</strong> | 고객사: 양평군 | 규모: BE 3, FE 2</p>
+            <p>상품 카테고리 및 세금계산서 API 개발, 챗봇 연동 API 개발, 양평군 기존 서비스 운영 및 유지보수</p>
+            <p style="color: #7c7c7c; font-size: 0.9em;">기술스택: Springboot 3.x.x, JDK 17, gitlab, argocd, k8s</p>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <h3 style="color: #ffdb70; margin-bottom: 10px;">KISA 큐싱/스미싱 프로젝트</h3>
+            <p style="color: #9e9e9e; margin-bottom: 5px;"><strong>2025.01</strong> | 고객사: KISA | 규모: BE 1</p>
+            <p>URL 사전 검증 로직 개발(구글 세이프 브라우징 연동), 카카오톡 챗봇 QR코드 인식 기능 개발, OCR API 활용 URL 추출 및 검증 로직 개발, 서버 프록시 설정 지원</p>
+            <p style="color: #7c7c7c; font-size: 0.9em;">기술스택: Springboot 2.x.x, JDK 11, nginx, docker, docker-compose</p>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <h3 style="color: #ffdb70; margin-bottom: 10px;">양평군 서비스 운영 및 신규 프로젝트 기술검토</h3>
+            <p style="color: #9e9e9e; margin-bottom: 5px;"><strong>2025.02 ~ 2025.03</strong> | 고객사: 양평군, 천안시 | 규모: BE 1</p>
+            <p>트래픽 부하 테스트 및 VM 성능 증빙자료 작성, 추가 기능 요청 건 개발, 신규 프로젝트 인프라 설계 및 기술검토 지원</p>
+            <p style="color: #7c7c7c; font-size: 0.9em;">기술스택: Springboot 2.x.x, JDK 11, ngrinder, gitlab, argocd, docker, k8s</p>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <h3 style="color: #ffdb70; margin-bottom: 10px;">스마트마을방송 시스템 (2차)</h3>
+            <p style="color: #9e9e9e; margin-bottom: 5px;"><strong>2025.05 ~ 2025.05</strong> | 고객사: 양평군 | 규모: BE 4, FE 2</p>
+            <p>어드민 API 개발 지원</p>
+            <p style="color: #7c7c7c; font-size: 0.9em;">기술스택: Springboot 2.6.x, JDK 11, gitlab, argocd, docker, k8s</p>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <h3 style="color: #ffdb70; margin-bottom: 10px;">NH 농협 조합원용 예약 시스템</h3>
+            <p style="color: #9e9e9e; margin-bottom: 5px;"><strong>2025.06 ~ 2025.09</strong> | 고객사: 농협정보시스템 | 규모: BE 4, FE 1</p>
+            <p>챗봇 API 개발, 대시보드 통계 배치 및 API 개발, 알림톡/EventAPI API 개발, 운영 업무 지원</p>
+            <p style="color: #7c7c7c; font-size: 0.9em;">기술스택: Springboot 3.0.x, JDK 17, gitlab, argocd, docker, k8s</p>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <h3 style="color: #ffdb70; margin-bottom: 10px;">레거시 모듈 공통화 및 CI/CD 구축</h3>
+            <p style="color: #9e9e9e; margin-bottom: 5px;"><strong>2025.08 ~ 2025.09</strong> | 내부 프로젝트 | 규모: BE 3</p>
+            <p>레거시 모듈 분석 및 공통화, 개발환경 CI/CD 파이프라인 구축 및 자동화, 개발 서버 구축, 테스트 및 배포 환경 개선</p>
+            <p style="color: #7c7c7c; font-size: 0.9em;">기술스택: Springboot 3.5.4, JDK 17, Jenkins, docker, docker-compose</p>
+          </div>
         </section>
 
 
@@ -440,10 +495,10 @@
         - #BLOG
       -->
 
-      <article class="blog" data-page="portfolio">
+      <article class="blog" data-page="on-news">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">on-news</h2>
         </header>
 
         <section class="blog-posts">
